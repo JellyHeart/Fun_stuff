@@ -111,11 +111,6 @@ do3s = mod16.*cos(2*pi*ScaleTable(20)*f0*t16);
 
 b1ks = zeros(1,k);
 
-
-
-
-
-do2f = mod4.*cos(2*pi*ScaleTable(13)*f0*t4);
 v1 = [ do0f re0f mi0f fa0f so0f la0f xi0f ...
     do1f re1f mi1f fa1f so1f la1f xi1f do3f];
 %v1 = v1/max(v1);
